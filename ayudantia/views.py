@@ -5,3 +5,4 @@ def index(request):
 
 def test(request):
     return render(request, 'test.html')
+    hola
