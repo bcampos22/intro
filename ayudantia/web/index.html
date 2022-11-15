@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="{% static '/images/pokeball-icon.ico' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/app.css' %}">
+    <script src="{% static '/js/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static '/js/app.js' %}"></script>
+  </head>
+  <body>
+  <div id="poke-music">
+    <audio controls autoplay>
+        <source id="poke-musica" src="{% static '/music/pokemon-and-chill.mp3' %}" type="audio/mp3">
+    </audio>
+    </div>
+    <div id="background">
+    <img id="fondo" src="{% static '/images/Fondo.png' %}" alt="fondo-pokedex"/>
+  </div>
+  <div id="decoracion">
+       <img id="Máximo" src="{% static '/images/Máximo_image.png' %}" alt="Entrenador Máximo"/>
+       <img id="Mega_Metagross" src="{% static '/images/mega_metagross.png' %}" alt="Pokémon Metagross"/>
+  </div>1
+  <div id="pokedex-container">
+    <img id="pokemon-logo" src="{% static '/images/pokemon_logo.png' %}" alt="pokemon-logo" />
+    <h1 id="pokédex" align="center">Pokédex<img id="pokedex_image" align="center" src="{% static '/images/pokedex_image.png' %}" width="100px" height="60px" alt="pokedex"/></h1>
+    <button id="Instrucciones" style="display:inline" role="button"> Instrucciones </button>
+    <div id="pokedex-navigation">
+      <!-- Agrega los elementos para la navegación -->
+        <p> <button id="Reset" class="Buttons" style="display:none" role="button"> Reset </button>
+          <input type="text" class="search" style="display:inline" id="search" name="pokemon_name" size="50" value="" placeholder="Nombre del Pokemon">
+          <button id="Buscar" class="Buttons" style="display:inline" role="button"> Buscar </button>
+        </p>
+      <button id="Atrás" class="Buttons" style="display:none" role="button"> Atrás </button>
+      <button id="Siguiente" class="Buttons" style="display:none" role="button"> Siguiente </button>
+    </div>
+
+
+    <div id="pokemon-data">
+      <!-- Aquí debes agregar la información del pokemon -->
+     <p> <text id="pokemon-id"></text> <text id="pokemon-name"></text> </p>
+      <p><img id="pokemon-image" src="" alt="pokemon-image" /> </p>
+      <img id="tipo-1" src="" alt="pokemon-type1"/> <img id="tipo-2" src="" alt="pokemon-type2"/>
+    </div>
+  </div>
+
+  </body>
+</html>

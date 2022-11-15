@@ -1,0 +1,92 @@
+body {
+  background-color: #ea0000;
+  font-family: 'Open Sans', sans-serif;
+}
+#poke-music {
+    background-image:url('./images/dj_meowth.gif');
+    background-size: cover;
+    border: #8B3040 8px inset;
+    float: right;
+    width: 300px;
+    height: 250px;
+
+}
+#fondo {
+  text-align: center;
+}
+#Máximo {
+    float: left;
+    width: 400px;
+    height: 900px;
+}
+#Mega_Metagross {
+    float: right;
+    width: 450px;
+    height: 670px;
+}
+#pokédex {
+ font-family: 'Open cursive', cursive;
+ font-size: 60px
+}
+#pokedex_image {
+    width: 20px
+    height:40px
+}
+.Buttons {
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#005BBB;
+    border: #8B3040 3px inset;
+}
+#Instrucciones {
+    color: black;
+    font-family: 'oblique', serif;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border: #8B3040 3px inset;
+    background-color:#8B3040;
+}
+#pokedex-container {
+  background-color: white;
+  text-align: center;
+  border: black 6px inset;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 35px;
+  width: 450px;
+  height: 725px;
+}
+
+#pokemon-logo {
+  margin: 0 auto;
+  width: 450px;
+}
+#pokemon-name {
+  font-size: 30px;
+  font-family: 'Constantia', serif;
+  text-transform: initial;
+}
+#pokemon-id {
+  font-size: 30px;
+  font-family: 'Constantia', serif;
+}
+#pokemon-image {
+  width: 220px;
+  height: 220px;
+}
+#tipo-1 {
+    width: 75px;
+    height: 30px;
+}
+#tipo-2 {
+    width: 75px;
+    height: 30px;
+}
+img[src=""] {
+  display: none;
+}
